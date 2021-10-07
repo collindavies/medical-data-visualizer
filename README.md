@@ -1,7 +1,7 @@
 # medical-data-visualizer
 A few different ways to visualize medical data.
 
-## Goal: Use the data to complete the following tasks in:
+## Goal - Use the data to complete the following tasks:
 
 - Add an overweight column to the data. To determine if a person is overweight, first calculate their BMI by dividing their weight in kilograms by the square of their height in meters. If that value is > 25 then the person is overweight. Use the value 0 for NOT overweight and the value 1 for overweight.
 
