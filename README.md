@@ -1,5 +1,5 @@
 # medical-data-visualizer
-A few different ways to visualize medical data.
+A few different ways to visualize medical data using Pandas, seaborn, numpy, and matplotlib.
 
 ## Goal - Use the data to complete the following tasks:
 
