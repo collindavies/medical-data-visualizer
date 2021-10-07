@@ -11,9 +11,13 @@ Goal: Use the data to complete the following tasks in:
 
 - Clean the data. Filter out the following patient segments that represent incorrect data:
   diastolic pressure is higher than systolic (Keep the correct data with df['ap_lo'] <= df['ap_hi']))
+    
     -> height is less than the 2.5th percentile (Keep the correct data with (df['height'] >= df['height'].quantile(0.025)))
+    
     -> height is more than the 97.5th percentile
+    
     -> weight is less than the 2.5th percentile
+    
     -> weight is more than the 97.5th percentile
 
 - Create a correlation matrix using the dataset. Plot the correlation matrix using seaborn's heatmap(). Mask the upper triangle.
